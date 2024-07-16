@@ -1,0 +1,69 @@
+* {
+  text-align: center;
+  
+}
+body{
+    background-color: aquamarine;
+}
+.tudo {
+    padding-top: 5%;
+    display: flex;
+    padding-left: 15%;
+    position: relative;
+}
+.calculadora {
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 15px 15px 15px;
+   padding: 100px 100px 100px 100px;
+    padding-right: 100px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.resultado {
+    box-shadow: 5px 5px 5px 5px;
+    border-radius: 15px 15px 15px;
+    padding: 100px 100px 100px 100px;
+    background-color: rgb(43, 43, 43);
+    text-align: center;
+    color: white;
+    
+}
+.titulo {
+    text-align: center;
+}
+#valortotal{
+
+    color: yellow;
+}
+.ns {
+    font-size: 25px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 10px;
+    background-color: rgb(0, 0, 0);
+
+}
+.linhadecima{
+    background-color: yellow;
+    height: 3px;
+    border-radius: 10px 10px 10px;
+}
+#valordaconta {
+    color: yellow;
+}
+input{
+    border-radius: 10px 10px 10px;
+    font-size: 25px;
+}
+label{
+    font-size: 25px;
+    
+}
+.button{
+    color:white;
+    background-color: black;    
+}
+.button:hover {
+    color:black;
+    background-color: white;  
+}

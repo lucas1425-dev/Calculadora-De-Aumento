@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="network-calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Calculadora De Aumento</title>
+</head>
+<body>
+    <div class="tudo">
+    <div class="calculadora">
+    <h1 class="titulo">Calculadora de Aumento</h1>
+
+    <label for=""> Valor Total: </label> <br>
+
+    <input  type="text" id="valor" placeholder="Valor sem o R$" >
+
+   <br>
+
+    <label for=""> Porcentagem de Aumento:</label> <br>
+
+    <input  type="text" id="porcentagem" placeholder="Porcentagem Sem o %">
+
+ <br><br>
+
+ <input class="button" onclick="valor()" type="submit" value="Calcular">
+
+</div>
+<div class="resultado">
+    <!-- <h4>Desenvolvi um algoritmo simples para calcular aumento salarial. <br>
+         Ele recebe o salário atual e a porcentagem de aumento, calcula <br>
+          o valor adicional e soma ao salário original, fornecendo o  <br>
+          novo salário final. Esse método é eficaz para ajustar rapidamente <br>
+           salários com base em aumentos percentuais. <br></h4> -->
+   <form action="" class="ns"> <hr class="linhadecima"> 
+    <h3>VALOR TOTAL:</h3>
+    <p id="valortotal"> 00.00R$</p> </form>
+   <br>    <br><hr>
+ <h3> VALOR AUMENTO</h3>
+    <p id="valordaconta">00.00R$</p>
+
+</div>
+</div>
+    <script src="js/index.js"></script>
+</body>
+</html>
